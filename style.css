@@ -1,0 +1,121 @@
+.fuente{
+    font-family: 'Broadway', sans-serif;
+    float: left;
+    color: black;
+}
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px 20px;
+    background-color: none;
+    text-decoration: none !important;
+    color:black;
+}
+
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+.centro{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.centro nav{
+    display: flex;
+    gap: 20px;
+}
+.der{
+    margin-left:auto;
+}
+.der nav{
+    display:flex;
+    gap: 20px;
+}
+.boton-login{
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #006BFF; /* Color azul */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.texto{
+    flex: 1;
+}
+.imagen {
+    width: auto; /* Ajusta el tamaño de la imagen */
+    height: 200px; /* Mantiene la relación de aspecto */
+}
+.marcas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px;
+}
+.margenes {
+    margin-left:100px;
+    margin-right: 100px;
+}
+.contenedor_lista{
+    text-align: center;
+}
+.lista {
+    align-items: left;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cuadro_texto {
+    width: 100%; 
+    max-width: auto; 
+    height: 150px; 
+    padding: 10px; 
+    font-size: 16px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde del área de texto */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del tamaño */
+}
+
+.enviar{
+    margin-left: 100%;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #006BFF; /* Color azul */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.centra_tabla {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.tablas {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .tabla {
+    flex: 1 0 21%;
+    margin: 20px;
+    height: 700px;
+    width: auto;
+    background-color: blue;
+  }

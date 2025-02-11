@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Pablo Colmenero">
+    <meta name="keywords" content="Skate, DeluxeSF, Antihero, Krooked, Real">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.cdnfonts.com/css/broadway" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <a href="index.html" class="logo">COLME DIST</a>
+            <div class="centro">
+                <nav>
+                    <a href="index.html">INICIO</a>
+                    <a href="b2b.html">B2B</a>
+                    <a href="tiendas.html">TIENDAS</a>
+                </nav>
+            </div>
+            <div class="der">
+                <nav>
+                    <a href="#">CONTACTO</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Formulario de contacto aqui abajo-->
+    <div class="margenes">
+        <form>
+            <fieldset>
+                <legend>Rellene sus datos de contacto</legend>
+                <p>
+                    <label for="name_id">Nombre:</label>
+                    <input type="text" required minlength="4" maxlength="20">
+                </p>
+                <p>
+                    <label for="name_id">Apellidos:</label>
+                    <input type="text" required minlength="4" maxlength="40">
+                </p>
+                <p>
+                    <label for="name_id">Email:</label>
+                    <input type="text" required minlength="4" maxlength="20">
+                </p>
+                <p>
+                    <label for="name_id">Telefono:</label>
+                    <input type="number" minlength="9" maxlength="9">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Rellene los datos de su negocio</legend>  
+                <p>
+                    <label for="name_id">Nombre Comercio:</label>
+                    <input type="text" required minlength="4" maxlength="20">
+                </p>
+                <p>
+                    <label for="name_id">Dirección de facturación:</label>
+                    <input type="text" required minlength="4" maxlength="20">
+                </p>
+                <p>
+                    <label for="name_id">Código postal:</label>
+                    <input type="number" required minlength="5" maxlength="5">
+                </p>
+                <p>
+                    <label for="name_id">NIF:</label>
+                    <input type="text" required minlength="4" maxlength="20">
+                </p> 
+            </fieldset>
+            <fieldset>
+                <p>Si desea realizar un pedido rellene el siguiente cuadro con: productos deseados, cantidad. Nos pondremos en contacto con ustedes cuanto antes.</p>
+                <label for="texto"></label>
+                <textarea id="texto" class="cuadro_texto" placeholder="Escriba aquí"></textarea>
+            </fieldset>
+        </form>
+        <div class="enviar">
+            Enviar
+        </div>
+    </div>
+
+</body>
+</html>
